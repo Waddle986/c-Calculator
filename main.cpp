@@ -18,7 +18,7 @@ int main(){
     cin >> numone;
     cout << "enter another number" << endl;
     cin >> numtwo;
-    cout << "Enter 1 to add, 2 to subtract, 3 to multiply, 4 to divide, 5 to mod, 6 to increment your first number, or  7 to decrement your second number" << endl;
+    cout << "Enter 1 to add, 2 to subtract, 3 to multiply, 4 to divide, 5 to mod, 6 to increment your first number, or 7 to decrement your second number" << endl;
     cin >> x;
     if(x == 1){
     sum = numone + numtwo;
@@ -48,4 +48,5 @@ int main(){
         sum = --numtwo;
         cout << "The answer is " << sum << endl;
     }
+
 }
